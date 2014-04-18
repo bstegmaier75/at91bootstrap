@@ -76,4 +76,8 @@
 #include "sama5d3_xplained.h"
 #endif
 
+#ifdef CONFIG_SAM9L9260
+#include "sam9l9260.h"
+#endif
+
 #endif /* #ifndef __BOARD_H__ */

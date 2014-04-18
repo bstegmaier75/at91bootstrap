@@ -72,6 +72,10 @@
 #include "arch/sama5d3x.h"
 #endif
 
+#ifdef SAM9L9260
+#include "arch/at91sam9260.h"
+#endif
+
 /* I/O Function Macro */
 #define writel(value, addr) \
 	(*(volatile unsigned int *)(addr)) = (value)
